@@ -1,0 +1,80 @@
+td {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  padding: 0;
+  border-collapse:collapse;
+  margin: 20px auto;
+}
+
+img {
+  width: 100%;
+  height: 100%
+}
+
+span {
+  margin: 0;
+  margin-left: 5px;
+  vertical-align: bottom;
+  padding: 2px 15px;
+  background-color: rgba(255, 235, 59, 0.41);
+  border: #9E9E9E solid 2px;
+  display: inline-block;
+  height: 20px;
+  font-family: fantasy;
+}
+
+input {
+  vertical-align: bottom;
+  margin: 0;
+  height: 20px;
+  padding: 2px;
+  font-size: 15px;
+  font-family: fantacy;
+  display: inline-block;
+  width: 70px;
+  border: #9E9E9E solid 2px;
+  border-left: 0;
+}
+
+button {
+  height: 28px;
+  padding: 2px 15px;
+  vertical-align: bottom;
+  display: inline-block;
+  background-color: rgba(205, 220, 57, 0.67);
+  font-size: 16px;
+  font-family: fantasy;
+  margin-left: 5px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.message {
+  position: absolute;
+  text-align: center;
+  width: 600px;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -300px;
+  color: #FF9800;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.message_box {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 70px;
+}
+

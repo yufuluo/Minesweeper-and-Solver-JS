@@ -1,0 +1,13 @@
+---
+extends:
+  - "eslint-config-defaults/configurations/walmart/es6-react"
+rules:
+  "no-magic-numbers": 0
+  "max-statements": [2, 25]
+  "no-empty-label": 0
+  "no-arrow-condition": 0
+  "filenames/filenames": 0
+  "space-after-keywords": 0
+  "space-before-keywords": 0
+  "space-return-throw-case": 0
+  "max-len": ["error", 200]
